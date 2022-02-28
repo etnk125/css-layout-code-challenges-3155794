@@ -16,6 +16,13 @@
   padding: 0;
 }
 
+/* work with list wu use flex */
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .menu a {
   display: block;
   padding: 0.5rem 1rem;

@@ -27,11 +27,19 @@ img {
 .main {
   margin: 0 auto;
   padding: 2rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15ch, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  grid-auto-flow: dense;
 }
 
 .card {
   display: flex;
   border: 0.5rem solid black;
+  flex: 1 1 clamp(30ch, 25%, 50ch);
   container-type: inline-size;
 }
 
@@ -40,7 +48,7 @@ img {
     display: flex;
   }
 
-  .card-inner > * {
+  .card-inner>* {
     max-width: 50%;
   }
 
@@ -67,6 +75,6 @@ img {
   text-transform: uppercase;
 }
 
-/* .featured {
+.featured {
   grid-column: span 2;
-} */
+}

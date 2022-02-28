@@ -32,6 +32,24 @@ img {
   width: clamp(20ch, 50%, var(--content-width));
   margin: 2rem;
   border: .5rem solid black;
+  container-type: inline-size;
+  contain: style layout inline-size;
+}
+
+@container (min-width: 60ch) {
+  .card-inner {
+    display: flex;
+    background-color: black;
+    /* flex-direction: row; */
+  }
+
+  .card-inner>* {
+    max-width: 50%
+  }
+
+  .card-inner>img {
+    object-fit: cover;
+  }
 }
 
 .card figcaption {
@@ -41,7 +59,7 @@ img {
 }
 
 .card h2 {
-margin-block-end: 0;
+  margin-block-end: 0;
 }
 
 .card button {
@@ -51,3 +69,5 @@ margin-block-end: 0;
   font-size: 1rem;
   text-transform: uppercase;
 }
+
+/* @container (min-width:60ch) { */

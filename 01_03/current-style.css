@@ -15,6 +15,7 @@
   padding: 0;
 }
 
+
 .grid li {
   border: 0.5rem solid green;
   display: flex;
@@ -22,6 +23,21 @@
   align-items: center;
 }
 
+
 li.featured {
   border-color: purple;
+
+}
+
+/* here */
+.grid ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  /* fill up */
+  grid-auto-flow: dense;
+}
+
+li.featured {
+  grid-column: span 2;
 }

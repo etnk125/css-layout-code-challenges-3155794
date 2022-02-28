@@ -5,8 +5,38 @@
   border: 0.5rem solid black;
 }
 
+
 .child {
+
   padding: 0 2rem;
   width: 50%;
   border: 0.5rem solid red;
 }
+
+/* flex */
+.wrapper {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* grid */
+/* .wrapper {
+  
+  display: grid;
+  justify-items: center;
+  align-items: center;
+} */
+
+
+/* grid2 */
+/* .wrapper {
+  display: grid
+}
+
+.child {
+
+  justify-self: center;
+  align-self: center;
+} */
