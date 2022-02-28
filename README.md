@@ -7,20 +7,20 @@
 
 
 ## result
-- [Center Content](../01_01/index.html)
-- [Navigation Menu](../01_02/index.html)
-- [Grid with Featured Content](../01_03/index.html)
-- [Equal height wrapping columns](../01_04/index.html)
-- [Full-page two-way split](../01_05/index.html)
-- [Holy Grail Layout](../01_06/index.html)
-- [Pull Quotes](../01_07/index.html)
-- [Full-bleed sections](../01_08/index.html)
-- [Responsive Card](../01_09/index.html)
-- [Multi Card Layout](../01_10/index.html)
-- [Dynamic Card](../01_11/index.html)
-- [Dynamic wrapping multi Card Layout](../01_12/index.html)
-- [Dynamic Grid Gallery](../01_13/index.html)
-- [Paged Layout](../01_14/index.html)
+- [Center Content](./01_01/index.html)
+- [Navigation Menu](./01_02/index.html)
+- [Grid with Featured Content](./01_03/index.html)
+- [Equal height wrapping columns](./01_04/index.html)
+- [Full-page two-way split](./01_05/index.html)
+- [Holy Grail Layout](./01_06/index.html)
+- [Pull Quotes](./01_07/index.html)
+- [Full-bleed sections](./01_08/index.html)
+- [Responsive Card](./01_09/index.html)
+- [Multi Card Layout](./01_10/index.html)
+- [Dynamic Card](./01_11/index.html)
+- [Dynamic wrapping multi Card Layout](./01_12/index.html)
+- [Dynamic Grid Gallery](./01_13/index.html)
+- [Paged Layout](./01_14/index.html)
 
 
 
